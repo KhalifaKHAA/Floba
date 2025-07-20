@@ -1,0 +1,30 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/bin/node',
+1 verbose cli   '/home/container/node_modules/.bin/npm',
+1 verbose cli   'help',
+1 verbose cli   'npm'
+1 verbose cli ]
+2 info using npm@2.15.12
+3 info using node@v20.19.2
+4 verbose config Skipping project config: /home/container/.npmrc. (matches userconfig)
+5 verbose stack Error: spawn man ENOENT
+5 verbose stack     at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+5 verbose stack     at onErrorNT (node:internal/child_process:483:16)
+5 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+6 verbose cwd /home/container
+7 error Linux 5.15.0-141-generic
+8 error argv "/usr/local/bin/node" "/home/container/node_modules/.bin/npm" "help" "npm"
+9 error node v20.19.2
+10 error npm  v2.15.12
+11 error file man
+12 error path man
+13 error code ENOENT
+14 error errno -2
+15 error syscall spawn man
+16 error enoent spawn man ENOENT
+16 error enoent This is most likely not a problem with npm itself
+16 error enoent and is related to npm not being able to find a file.
+16 error enoent
+16 error enoent Check if the file 'man' is present.
+17 verbose exit [ -2, true ]
